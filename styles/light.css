@@ -8,7 +8,7 @@
     --color-txt: var(--dark-2, #353430);
     --decor-black: var(--dark-2, #353430);
     --purple-variaty: var(--dark-2, #353430);
-    --purplpe-variaty40: var(--dark-40, #35343040);
+    --purple-variaty40: var(--dark-40, #35343040);
     --main-color: var(--title-pink-3, #ffc2e6);
   }
 }
@@ -22,6 +22,6 @@
   --color-txt: var(--dark-2, #353430);
   --decor-black: var(--dark-2, #353430);
   --purple-variaty: var(--dark-2, #353430);
-  --purplpe-variaty40: var(--dark-40, #35343040);
+  --purple-variaty40: var(--dark-40, #35343040);
   --main-color: var(--title-pink-3, #ffc2e6);
 }

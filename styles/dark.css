@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    
+
     --rec: visible;
     --accent-color: var(--purple-2, #ff0070);
     --page-bg-color: var(--bg-dark-1, #000028);
@@ -9,7 +9,7 @@
     --color-txt: var(--text-pink-2, #f1b2ce);
     --main-color: var(--purple-main-1, #db00ff);
     --purple-variaty: var(--purple-2, #ff0070);
-    --purplpe-variaty40: var(--purple-40, #ff007040);
+    --purple-variaty40: var(--purple-40, #ff007040);
     --decor-black: var(--bg-dark-1, #000028);
 
   }
@@ -24,6 +24,6 @@
   --color-txt: var(--text-pink-2, #f1b2ce);
   --main-color: var(--purple-main-1, #db00ff);
   --purple-variaty: var(--purple-2, #ff0070);
-  --purplpe-variaty40: var(--purple-40, #ff007040);
+  --purple-variaty40: var(--purple-40, #ff007040);
   --decor-black: var(--bg-dark-1, #000028);
 }
