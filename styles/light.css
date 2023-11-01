@@ -1,12 +1,27 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+@media (prefers-color-scheme: light) {
+  :root {
+    --rec: hidden;
+    --accent-color: var(--title-bg-pink-4, #ff8dcb);
+    --page-bg-color: var(--bg-pink-1, #fff1f7);
+    --page-bg-image: url(../images/cover-image-light.png);
+  
+    --color-txt: var(--dark-2, #353430);
+    --decor-black: var(--dark-2, #353430);
+    --purple-variaty: var(--dark-2, #353430);
+    --purplpe-variaty40: var(--dark-40, #35343040);
+    --main-color: var(--title-pink-3, #ffc2e6);
+  }
+}
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --rec: hidden;
+  --accent-color: var(--title-bg-pink-4, #ff8dcb);
+  --page-bg-color: var(--bg-pink-1, #fff1f7);
+  --page-bg-image: url(../images/cover-image-light.png);
+
+  --color-txt: var(--dark-2, #353430);
+  --decor-black: var(--dark-2, #353430);
+  --purple-variaty: var(--dark-2, #353430);
+  --purplpe-variaty40: var(--dark-40, #35343040);
+  --main-color: var(--title-pink-3, #ffc2e6);
 }

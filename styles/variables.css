@@ -2,3 +2,31 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --accent-color: var(--purple-2, #ff0070); 
+  --rec: visible; 
+
+  --bg-pink-1: #fff1f7;
+  --text-pink-2: #f1b2ce;
+  --title-pink-3: #ffc2e6;
+  --title-bg-pink-4: #ff8dcb;
+
+  --purple-main-1: #db00ff;
+  --purple-2: #ff0070;
+  --purple-40: #ff007040;
+
+  --bg-dark-1: #000028;
+  --dark-2: #353430;
+  --dark-40: #35343040;
+
+  --color-txt: var(--text-pink-2, #f1b2ce);
+  --main-color: var(--purple-main-1, #db00ff);
+
+  --page-bg-color: var(--bg-dark-1, #000028);
+  --page-font-family: "IBM Plex mono", monospace;
+  --page-bg-image: url(../images/cover-image.png);
+
+  --purple-variaty: var(--purple-2, #ff0070);
+  --purplpe-variaty40: var(--purple-40, #ff007040);
+  --decor-black: var(--bg-dark-1, #000028);
+}
