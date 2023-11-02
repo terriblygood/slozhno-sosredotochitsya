@@ -3,8 +3,8 @@
   и их переопределение под различные устройства
 */
 :root {
-  --accent-color: var(--purple-2, #ff0070); 
-  --rec: visible; 
+  --accent-color: var(--purple-2, #ff0070);
+  --rec: visible;
 
   --bg-pink-1: #fff1f7;
   --text-pink-2: #f1b2ce;
